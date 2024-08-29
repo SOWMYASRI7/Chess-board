@@ -1,0 +1,17 @@
+table{
+    border:1px groove red;
+    box-align:center;
+  
+  
+  
+  }
+  td{
+    height:50px;
+    width:50px;
+  }
+  #white{
+    background: white;
+  }
+  #black{
+    background: black;
+  }
