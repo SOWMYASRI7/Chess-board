@@ -1,17 +1,24 @@
-table{
-    border:1px groove red;
-    box-align:center;
-  
-  
-  
-  }
-  td{
-    height:50px;
-    width:50px;
-  }
-  #white{
-    background: white;
-  }
-  #black{
-    background: black;
-  }
+table {
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+td {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 40px;
+}
+h1 {
+  text-align: center;
+}
+/* Black square background and white text color for pieces */
+#black {
+  background-color: #0a023c;
+  color: white;  /* Set the text color to white to make pieces visible */
+}
+/* White square background and black text color for pieces */
+#white {
+  background-color: #eeeed2;
+  color: rgb(8, 3, 60);  /* Keep the default color for white squares */
+}
